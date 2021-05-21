@@ -28,4 +28,4 @@ client.on('message', async message =>{
     if(!command) command = client.commands.get(client.aliases.get(cmd));
     if(command) command.run(client, message, args) 
 })
-bot.login(process.env.Tokennitro);
+bot.login(process.env.Token4);
